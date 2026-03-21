@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Collector — Download videos from social media</title>
+    <meta name="description" content="Download videos and media from YouTube, Instagram, TikTok, X (Twitter) and Facebook. Send a link — get the file. Works right inside Telegram.">
+    <meta name="keywords" content="video downloader, youtube downloader, instagram downloader, tiktok downloader, twitter downloader, facebook downloader, telegram bot, social media downloader">
+
+    <meta property="og:title" content="Cyber Collector — Download videos from social media">
+    <meta property="og:description" content="Send a link to our Telegram bot — get back the video. YouTube, Instagram, TikTok, X, Facebook.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hitkey-io.github.io/cybercollector/">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cyber Collector — Download videos from social media">
+    <meta name="twitter:description" content="Send a link to our Telegram bot — get back the video. YouTube, Instagram, TikTok, X, Facebook.">
+
+    <link rel="canonical" href="https://hitkey-io.github.io/cybercollector/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #fff;
+            color: #000;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .page {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 100vh;
+            padding: 56px 80px;
+        }
+
+        .top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 56px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .logo span {
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+        }
+
+        h1 {
+            font-size: 64px;
+            font-weight: 300;
+            letter-spacing: -2px;
+            line-height: 1.1;
+            text-align: center;
+            max-width: 720px;
+        }
+
+        .subline {
+            font-size: 17px;
+            color: #666;
+            text-align: center;
+            line-height: 1.7;
+            max-width: 480px;
+        }
+
+        .cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 36px;
+            border: 1px solid #000;
+            background: transparent;
+            color: #000;
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            text-decoration: none;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .cta:hover {
+            background: #000;
+            color: #fff;
+        }
+
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .copyright {
+            font-size: 12px;
+            color: #999;
+        }
+
+        .bottom a {
+            font-size: 12px;
+            font-weight: 500;
+            color: #000;
+            text-decoration: none;
+        }
+
+        .bottom a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .page {
+                padding: 40px 24px;
+            }
+
+            h1 {
+                font-size: 36px;
+                letter-spacing: -1px;
+            }
+
+            .subline {
+                font-size: 15px;
+            }
+
+            .top {
+                gap: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="top">
+            <div class="logo">
+                <svg viewBox="0 0 62 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M62 16l0 41.00171c0 4.41828-3.58172 8-8 8l-46 0c-4.41828 0-8-3.58173-8-8.00001l0-41.0017c0-0.83333 0-3 1-4l11-11c0.33333-0.33333 1.4-1 3-1l32 0c1.6 0 2.66667 0.66667 3 1l11 11c1 1 1 3.16667 1 4z m-53-5l6-6 32 0 6 6-44 0z m39.5 14.5c-1.09713-1.10155-2.87592-1.10155-3.97306 0l-19.10379 19.22075-7.30439-7.33378c-1.09713-1.10155-2.87593-1.10155-3.97306 0-1.09713 1.10155-1.09713 2.88751 0 3.98906l9.51196 9.55024c0.5885 0.56414 2.10262 1.35393 3.45112 0l21.39122-21.47731c1.09713-1.10155 1.09713-2.84742 0-3.94896z" fill="#000"/>
+                </svg>
+                <span>Cyber Collector</span>
+            </div>
+
+            <div class="main">
+                <h1>Download anything.<br>From anywhere.</h1>
+                <p class="subline">
+                    Send a link to our Telegram bot — get back the video.<br>
+                    YouTube · Instagram · TikTok · X · Facebook
+                </p>
+                <a href="https://t.me/cybercollectorbot" class="cta">Open in Telegram <span>&#8599;</span></a>
+            </div>
+        </div>
+
+        <footer class="bottom">
+            <span class="copyright">&copy; 2026 Cyber Collector</span>
+            <a href="https://github.com/hitkey-io/cybercollector/discussions">GitHub Discussions</a>
+        </footer>
+    </div>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Cyber Collector",
+        "description": "Download videos and media from YouTube, Instagram, TikTok, X (Twitter) and Facebook via Telegram bot.",
+        "url": "https://hitkey-io.github.io/cybercollector/",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Telegram",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+</body>
+</html>

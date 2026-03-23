@@ -12,7 +12,7 @@ Cyber Collector is built to be that universal tool — one place to download med
 
 ## How it works
 
-Send a link — get the file. Works right inside Telegram.
+Send a link — get the file. Works in Telegram and MAX.
 
 ## Supported platforms
 
@@ -28,4 +28,5 @@ Found a bug or want to request a new platform? Let us know in [Discussions](http
 
 ## Get started
 
-[@cybercollectorbot on Telegram](https://t.me/cybercollectorbot)
+- [@cybercollectorbot on Telegram](https://t.me/cybercollectorbot)
+- [Cyber Collector Bot on MAX](https://max.ru/id673213384277_bot)
